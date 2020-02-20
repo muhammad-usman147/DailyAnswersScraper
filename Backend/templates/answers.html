@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <div id='primary'>
+            <h1> {{ query['title'] }} </h1>
+            <img src="{{ query['featured_image_url'] }}" alt="">
+            
+            <p>
+                <strong>{{ query['desc'] }} </strong>
+                </p>
+                <img src="{{ query['body_image_url'] }}" alt="">
+            <h3>
+                <p >
+                
+                <div id='answer'>
+                    <p>
+                        Answer is <b id='ans'>{{ query['answer'] }}</b>
+                    </p>
+                </div>
+            </p>
+        </h3>
+        </div>
+    </center>
+</body>
+</html>
+
+<style>
+    body{
+background-color: whitesmoke;
+}
+#primary{
+height:80%;
+border-radius: 30px;
+border:1px solid black;
+width:60%;
+color:black;
+background-color: rgb(189, 184, 185);
+}
+#id{
+    font-size:30px;
+    color:red;
+}
+</style> 

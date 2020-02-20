@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type='text/css' href="style.css" />
+    <title>Document</title>
+    
+</head>
+<body>
+    <center>
+    <div id='primary'>
+        <h1> {{ query['title'] }} </h1>
+        <img src="{{ query['featured_image_url'] }}" alt="">
+        
+        <p>
+            <strong>{{ query['desc'] }} </strong>
+            </p>
+            <img src="{{ query['body_image_url'] }}" alt="">
+        <h3>
+            <strong >
+            <a href="/Answer" target="_blank">
+                CLICK HERE TO VIEW THE ANSWER
+            </a>
+        </strong>
+    </h3>
+    </div>
+</center>
+
+</body>
+</html>
+
+<style>
+    body{
+background-color: whitesmoke;
+}
+#primary{
+height:80%;
+border-radius: 30px;
+border:1px solid black;
+width:60%;
+color:black;
+background-color: rgb(189, 184, 185);
+}
+</style> 

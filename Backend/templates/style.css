@@ -1,0 +1,8 @@
+body{
+    background-color: blue;
+}
+#primary{
+    height:80%;
+    width:80%;
+    font-size: 40px;
+}
